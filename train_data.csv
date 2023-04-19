@@ -1,0 +1,332 @@
+"Model Information",
+"Data Set","WORK.TRAIN"
+"Response Variable","Churn"
+"Number of Response Levels",2
+"Model","binary logit"
+"Optimization Technique","Fisher's scoring"
+
+"Number of Observations Read",4931
+"Number of Observations Used",4923
+
+"Response Profile",,
+"OrderedValue","Churn","TotalFrequency"
+1,"No",3613
+2,"Yes",1310
+
+"Class Level Information",,,,
+"Class","Value","Design Variables",,
+"gender","Female",1,,
+,"Male",-1,,
+"Partner","No",1,,
+,"Yes",-1,,
+"Dependents","No",1,,
+,"Yes",-1,,
+"SeniorCitizen",0,1,,
+,1,-1,,
+"PhoneService","No",1,,
+,"Yes",-1,,
+"PaperlessBilling","No",1,,
+,"Yes",-1,,
+"MultipleLines","No",1,0,
+,"No phone service",0,1,
+,"Yes",-1,-1,
+"InternetService","DSL",1,0,
+,"Fiber optic",0,1,
+,"No",-1,-1,
+"OnlineSecurity","No",1,0,
+,"No internet service",0,1,
+,"Yes",-1,-1,
+"OnlineBackup","No",1,0,
+,"No internet service",0,1,
+,"Yes",-1,-1,
+"DeviceProtection","No",1,0,
+,"No internet service",0,1,
+,"Yes",-1,-1,
+"TechSupport","No",1,0,
+,"No internet service",0,1,
+,"Yes",-1,-1,
+"StreamingTV","No",1,0,
+,"No internet service",0,1,
+,"Yes",-1,-1,
+"StreamingMovies","No",1,0,
+,"No internet service",0,1,
+,"Yes",-1,-1,
+"PaymentMethod","Bank transfer (automatic)",1,0,0
+,"Credit card (automatic)",0,1,0
+,"Electronic check",0,0,1
+,"Mailed check",-1,-1,-1
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"-2 Log L","=",5704.172
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+1358.3618,21,"<.0001"
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","Intercept Only","Intercept and Covariates"
+"AIC",5706.172,5043.494
+"SC",5712.673,5062.999
+"-2 Log L",5704.172,5037.494
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",666.6776,2,"<.0001"
+"Score",617.6151,2,"<.0001"
+"Wald",523.8321,2,"<.0001"
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+777.0562,19,"<.0001"
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","Intercept Only","Intercept and Covariates"
+"AIC",5706.172,4574.864
+"SC",5712.673,4600.870
+"-2 Log L",5704.172,4566.864
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",1137.3081,3,"<.0001"
+"Score",996.5612,3,"<.0001"
+"Wald",808.2821,3,"<.0001"
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+388.2086,18,"<.0001"
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","Intercept Only","Intercept and Covariates"
+"AIC",5706.172,4326.113
+"SC",5712.673,4358.622
+"-2 Log L",5704.172,4316.113
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",1388.0584,4,"<.0001"
+"Score",1206.6625,4,"<.0001"
+"Wald",927.5972,4,"<.0001"
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+158.7988,17,"<.0001"
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","Intercept Only","Intercept and Covariates"
+"AIC",5706.172,4293.280
+"SC",5712.673,4338.792
+"-2 Log L",5704.172,4279.280
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",1424.8918,6,"<.0001"
+"Score",1231.0472,6,"<.0001"
+"Wald",940.5869,6,"<.0001"
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+122.5086,15,"<.0001"
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","Intercept Only","Intercept and Covariates"
+"AIC",5706.172,4267.011
+"SC",5712.673,4332.027
+"-2 Log L",5704.172,4247.011
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",1457.1611,9,"<.0001"
+"Score",1273.4521,9,"<.0001"
+"Wald",960.5049,9,"<.0001"
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+90.0579,12,"<.0001"
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","Intercept Only","Intercept and Covariates"
+"AIC",5706.172,4249.155
+"SC",5712.673,4320.674
+"-2 Log L",5704.172,4227.155
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",1477.0165,10,"<.0001"
+"Score",1286.1863,10,"<.0001"
+"Wald",965.1188,10,"<.0001"
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+70.8768,11,"<.0001"
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","Intercept Only","Intercept and Covariates"
+"AIC",5706.172,4233.019
+"SC",5712.673,4311.039
+"-2 Log L",5704.172,4209.019
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",1495.1526,11,"<.0001"
+"Score",1309.4288,11,"<.0001"
+"Wald",910.2649,11,"<.0001"
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+53.7328,10,"<.0001"
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","Intercept Only","Intercept and Covariates"
+"AIC",5706.172,4210.562
+"SC",5712.673,4295.084
+"-2 Log L",5704.172,4184.562
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",1519.6098,12,"<.0001"
+"Score",1320.9493,12,"<.0001"
+"Wald",911.3466,12,"<.0001"
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+29.5348,9,0.0005
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","Intercept Only","Intercept and Covariates"
+"AIC",5706.172,4198.938
+"SC",5712.673,4289.962
+"-2 Log L",5704.172,4170.938
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",1533.2336,13,"<.0001"
+"Score",1333.9748,13,"<.0001"
+"Wald",915.3241,13,"<.0001"
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+15.8709,8,0.0443
+
+"Model Convergence Status"
+"Convergence criterion (GCONV=1E-8) satisfied."
+
+"Model Fit Statistics",,
+"Criterion","Intercept Only","Intercept and Covariates"
+"AIC",5706.172,4194.504
+"SC",5712.673,4292.030
+"-2 Log L",5704.172,4164.504
+
+"Testing Global Null Hypothesis: BETA=0",,,
+"Test","Chi-Square","DF","Pr > ChiSq"
+"Likelihood Ratio",1539.6672,14,"<.0001"
+"Score",1337.7696,14,"<.0001"
+"Wald",915.4529,14,"<.0001"
+
+"Residual Chi-Square Test",,
+"Chi-Square","DF","Pr > ChiSq"
+9.4555,7,0.2216
+
+"Summary of Stepwise Selection",,,,,,,
+"Step","Effect",,"DF","NumberIn","ScoreChi-Square","WaldChi-Square","Pr > ChiSq"
+,"Entered","Removed",,,,,,,,,,,,,,,
+"1","OnlineSecurity",,2,1,617.6151,,"<.0001"
+"2","tenure",,1,2,444.1858,,"<.0001"
+"3","InternetService",,1,3,244.0918,,"<.0001"
+"4","MultipleLines",,2,4,36.8249,,"<.0001"
+"5","PaymentMethod",,3,5,32.7108,,"<.0001"
+"6","PaperlessBilling",,1,6,19.8149,,"<.0001"
+"7","TotalCharges",,1,7,17.3121,,"<.0001"
+"8","TechSupport",,1,8,24.3767,,"<.0001"
+"9","SeniorCitizen",,1,9,13.7427,,0.0002
+"10","OnlineBackup",,1,10,6.4510,,0.0111
+
+"Type 3 Analysis of Effects",,,
+"Effect","DF","WaldChi-Square","Pr > ChiSq"
+"SeniorCitizen",1,13.4524,0.0002
+"tenure",1,113.1881,"<.0001"
+"MultipleLines",2,27.0451,"<.0001"
+"InternetService",2,77.5615,"<.0001"
+"OnlineSecurity",1,28.6980,"<.0001"
+"OnlineBackup",1,6.4400,0.0112
+"TechSupport",1,21.6648,"<.0001"
+"PaperlessBilling",1,17.5265,"<.0001"
+"PaymentMethod",3,21.4702,"<.0001"
+"TotalCharges",1,28.4354,"<.0001"
+
+"OnlineSecuritNo internet service =","- 0.5 * InternetServiceDSL - 0.5 * InternetServiceFiber optic + 0.5 * OnlineSecuritNo"
+"OnlineBackupNo internet service =","- 0.5 * InternetServiceDSL - 0.5 * InternetServiceFiber optic + 0.5 * OnlineBackupNo"
+"TechSupportNo internet service =","- 0.5 * InternetServiceDSL - 0.5 * InternetServiceFiber optic + 0.5 * TechSupportNo"
+
+"Analysis of Maximum Likelihood Estimates",,,,,,
+"Parameter","","DF","Estimate","StandardError","WaldChi-Square","Pr > ChiSq"
+"Intercept","",1,-0.1798,0.1008,3.1789,0.0746
+"SeniorCitizen","0",1,-0.1806,0.0493,13.4524,0.0002
+"tenure","",1,-0.0739,0.00695,113.1881,"<.0001"
+"MultipleLines","No",1,-0.3368,0.0652,26.6695,"<.0001"
+"MultipleLines","No phone service",1,0.4207,0.1041,16.3320,"<.0001"
+"InternetService","DSL",1,-0.1208,0.0732,2.7239,0.0989
+"InternetService","Fiber optic",1,0.7486,0.0855,76.5978,"<.0001"
+"OnlineSecurity","No",1,0.2663,0.0497,28.6980,"<.0001"
+"OnlineSecurity","No internet service",0,0,".",".","."
+"OnlineBackup","No",1,0.1155,0.0455,6.4400,0.0112
+"OnlineBackup","No internet service",0,0,".",".","."
+"TechSupport","No",1,0.2279,0.0490,21.6648,"<.0001"
+"TechSupport","No internet service",0,0,".",".","."
+"PaperlessBilling","No",1,-0.1831,0.0437,17.5265,"<.0001"
+"PaymentMethod","Bank transfer (automatic)",1,0.0221,0.0788,0.0786,0.7792
+"PaymentMethod","Credit card (automatic)",1,-0.1331,0.0814,2.6756,0.1019
+"PaymentMethod","Electronic check",1,0.2732,0.0616,19.6748,"<.0001"
+"TotalCharges","",1,0.000400,0.000075,28.4354,"<.0001"
+
+"Odds Ratio Estimates",,,
+"Effect","Point Estimate","95% Wald Confidence Limits",
+"SeniorCitizen    0 vs 1",0.697,0.574,0.845
+"tenure",0.929,0.916,0.941
+"MultipleLines    No               vs Yes",0.776,0.645,0.934
+"MultipleLines    No phone service vs Yes",1.656,1.189,2.308
+"InternetService  DSL         vs No",1.660,1.205,2.289
+"InternetService  Fiber optic vs No",3.961,2.779,5.645
+"OnlineSecurity   No                  vs Yes",1.703,1.402,2.070
+"OnlineBackup     No                  vs Yes",1.260,1.054,1.506
+"TechSupport      No                  vs Yes",1.577,1.302,1.911
+"PaperlessBilling No vs Yes",0.693,0.584,0.823
+"PaymentMethod    Bank transfer (automatic) vs Mailed check",1.202,0.922,1.569
+"PaymentMethod    Credit card (automatic)   vs Mailed check",1.030,0.786,1.349
+"PaymentMethod    Electronic check          vs Mailed check",1.546,1.234,1.936
+"TotalCharges",1.000,1.000,1.001
+
+"Association of Predicted Probabilities and Observed Responses",,,
+"Percent Concordant",83.9,"Somers' D",0.679
+"Percent Discordant",16.1,"Gamma",0.679
+"Percent Tied",0.0,"Tau-a",0.265
+"Pairs",4733030,"c",0.839
+
